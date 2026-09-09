@@ -102,6 +102,16 @@ For more context, see the upstream Astral reports: [astral-sh/uv#13553](https://
 
 ---
 
+## Google Colab
+
+Want to try Hermes Agent without setting up a local machine? Open the ready-to-run notebook in Google Colab:
+
+<a href="https://colab.research.google.com/github/anonyby777-lgtm/hermes-agent/blob/main/notebooks/hermes_agent_colab.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open in Colab"></a>
+
+The notebook clones this repository, installs the locked base environment, reads an API key from Colab Secrets (or a hidden prompt), and uses `hermes -z` for Colab's non-interactive runtime. The Colab runtime is ephemeral, so save any files you want to keep to Google Drive before disconnecting.
+
+---
+
 ## Getting Started
 
 ```bash
