@@ -27,3 +27,10 @@ Parâmetros opcionais: `--moldura-op 0.5` `--logo-op 0.5` `--logo-w 0.39` `--log
 - `frame_moldura1_720x724.png` — moldura MOLDURA 1 pronta (720x724, 50%)
 - `logos/nuaky_crop.png` — logo NUAKEY (100%, opacidade ajustada no script)
 - `logos/frame_720_v2.png` — cópia da moldura
+
+## Moldura customizada: GÓTICA (15/09/2026)
+- Arquivo: `frame_gotica_1080x1920.png` (941x1672 original do usuário -> 1080x1920)
+- Como aplicar: video (qualquer formato) escalado pra caber na janela limpa (~76% da largura),
+  centralizado em (0.51W, 0.51H) de 1080x1920, canvas preto, moldura por cima a 50%,
+  logo NUAKEY a 50% (largura 0.39x a do video) no centro inferior do video (y ~= 1297/1920).
+- Exemplo gerado: `entregas/NUAKY_edit_v7.mp4`
